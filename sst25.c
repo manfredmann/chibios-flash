@@ -103,7 +103,8 @@ struct sst25_ll_info {
 
 static const struct sst25_ll_info sst25_ll_info_table[] = {
 	INFO("sst25vf016b", 0xbf2541, SST25_PAGESZ, 4096, 16*1024*1024/8/SST25_PAGESZ),
-	INFO("sst25vf032b", 0xbf254a, SST25_PAGESZ, 4096, 32*1024*1024/8/SST25_PAGESZ)
+	INFO("sst25vf032b", 0xbf254a, SST25_PAGESZ, 4096, 32*1024*1024/8/SST25_PAGESZ),
+	INFO("W25Q40BV",    0xc84013, SST25_PAGESZ, 4096, 4*1024*1024/8/SST25_PAGESZ) //Slow write only, slow/fast read
 };
 
 /*

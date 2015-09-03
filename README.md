@@ -11,4 +11,7 @@ Supported devices
   * SST25VF016B
   * SST25VF032B (t)
 
+* Windbond
+  * W25Q40BV (t) Fast/Slow Read. Slow write only.
+
 _(t) -- tested._ 
